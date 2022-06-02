@@ -29,6 +29,13 @@ Plug 'nvim-lua/plenary.nvim'
 " Lualine dependencies
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
+Plug 'ThePrimeagen/harpoon'
+" Neovim Tree sitter
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/playground'
+
+" LSP
+Plug 'neovim/nvim-lspconfig'
 
 call plug#end()
 
